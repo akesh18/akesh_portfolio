@@ -1,70 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Required meta tags -->
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Akesh | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Akesh Portfolio</title>
+
+  <!-- Link to external CSS -->
   <link rel="stylesheet" href="style.css" />
+
+  <!-- Enable smooth scrolling in modern browsers -->
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
 </head>
 <body>
+
+  <!-- Header with navigation -->
   <header>
-    <h1>Akesh</h1>
-    <p>Computer Science Student | MCA @ NSEC | Web Enthusiast</p>
+    <!-- Theme toggle switch -->
+<button id="theme-toggle" aria-label="Toggle theme">🔆</button>
+
+    <!-- Mobile menu button -->
+    <button id="menu-toggle" aria-label="Toggle menu">☰</button>
+    <nav id="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#ts">Technical Skills</a></li>
+        <li><a href="#edu">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#lang">Languages</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <nav>
-    <a href="#about">About</a>
-    <a href="#education">Education</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-  </nav>
+  <!-- Home Section -->
+  <section id="home">
+  <div class="profile-container">
+    <!-- Profile Image -->
+    <img src="Akesh_Photo.jpg" alt="Akesh's Photo" class="profile-pic" />
+    
+    <!-- Welcome Text -->
+    <div class="profile-text">
+      <h2>Akesh Bhushan</h2>
+      <p>Aspiring Software Engineer skilled in Java and SQL, seeking an entry-level role to apply my
+ programming knowledge</p>
+    </div>
+  </div>
+</section>
 
-  <main>
-    <section id="about">
-      <h2>About Me</h2>
-      <p>I’m a passionate computer science student with a deep interest in web development, ethics, and logic. I believe in building things that matter.</p>
-    </section>
+  <!-- Technical Skills Section -->
+  <section id="ts">
+    <h2>Technical Skills</h2>
+    <p> 
+    <b>- Java Programming Language (Intermediate) </b> <br>
+    <b>- Database Management : SQL (Intermediate) </b> <br>
+    <b>- WebDevelopment : HTML5, CSS3 (Intermediate) </b> <br>
+    <b>- Microsoft Word, PowerPoint (Intermediate) </b> <br>
+    </p>
 
-    <section id="education">
-      <h2>Education</h2>
-      <ul>
-        <li><strong>MCA</strong> - Netaji Subhash Engineering College, Kolkata (2024–2026)</li>
-        <li><strong>BCA</strong> - Techno Main Saltlake, Kolkata (2021–2024)</li>
-        <li><strong>Class 12</strong> - GGPS, Bokaro (2020)</li>
-        <li><strong>Class 10</strong> - Sido Kanhu High School, Dumka (2018)</li>
-      </ul>
-    </section>
+  <!-- Education Section -->
+  <section id="edu">
+    <h2>Education</h2>
+    <p>
+<b> Master of Computer Applications (MCA) </b> <br>
+Netaji Subhash Engineering College Kolkata, West Bengal <br>
+<i> Expected Completion &nbsp; &nbsp; : </i> &nbsp; June 2026 <br> 
+<i> CGPA (Up to 2nd Sem) &nbsp; : </i> &nbsp; 7.46 / 10.00
+ <br> 
+ <br>
+<b> Bachelor of Computer Applications (BCA) </b> <br>
+Techno Main Saltlake Kolkata, West Bengal <br>
+June 2024 &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; CGPA : 8.14 / 10.00
+<br>
+<br>
+<b> Higher Secondary Certificate (Class XII) </b> <br>
+GGPS Sector 5B Bokaro , Jharkhand <br>
+June 2020 &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; CGPA : 7.23 /10.00
+<br> 
+<br>
+<b> Secondary School Certificate (Class X) </b> <br>
+Sido Kanhu High School Dumka , Jharkhand <br>
+June 2018 &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; CGPA : 8.48 / 10.00
+    </p>
+  </section>
 
-    <section id="skills">
-      <h2>Skills</h2>
-      <ul>
-        <li>Languages: C, C++, Python, JavaScript</li>
-        <li>Web: HTML, CSS, React, Next.js</li>
-        <li>Tools: Git, GitHub, Vercel, VS Code</li>
-      </ul>
-    </section>
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <b> Online Test Drive Booking System </b> <br>
+ Description : Developed a Java/JSP web application with MySQL database that
+ generates cost estimates (bills) for users scheduling vehicle test drives.
+ Implemented user login, inventory management, and automated billing.
+  </section>
 
-    <section id="projects">
-      <h2>Projects</h2>
-      <ul>
-        <li><strong>akesh_portfolio</strong> – Personal portfolio website built with HTML/CSS/JS and deployed on Vercel.</li>
-        <li><strong>Mini Todo App</strong> – A basic to-do list app with JavaScript DOM manipulation.</li>
-      </ul>
-    </section>
+  <!-- Languages Section -->
+  <section id="lang">
+    <h2>Languages</h2>
+    <ul>
+      <b> English &nbsp; : &nbsp; <i> Fluent </i> </b> <br>
+      <b> Hindi &nbsp; &nbsp; &nbsp; : &nbsp; <i> Native </i> </b>
+    </ul>
+  </section>
 
-    <section id="contact">
-      <h2>Contact Me</h2>
-      <p>Email: akesh@example.com</p>
-      <p>GitHub: <a href="https://github.com/akesh18" target="_blank">akesh18</a></p>
-    </section>
-  </main>
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p> Kolkata , West Bengal <br> </p>
+    <p>Email : 
+  <a href="mailto:bhushanakesh1804&#64;gmail.com">
+    bhushanakesh1804&#64;gmail.com
+  </a>
+</p>
 
-  <footer>
-    <p>© 2025 Akesh. All rights reserved.</p>
-  </footer>
+  </section>
 
+  <!-- Link to external JavaScript -->
   <script src="script.js"></script>
 </body>
 </html>
+
 
