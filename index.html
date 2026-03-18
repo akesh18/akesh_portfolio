@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akesh Bhushan | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">Portfolio</a>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#language">Languages</a></li>
+                <li><a href="#edu">Education</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <img src="Akesh_Photo.jpg" alt="Akesh Bhushan" class="profile-pic">
+            <h1>Hi, I'm <span>Akesh Bhushan</span></h1>
+            <h2><pre>Motivated MCA graduate with a logical mindset and a passion for
+interacting with people. Eager to help customers by simplifying
+digital banking solutions. A quick learner dedicated to achieving
+targets and delivering great service.</pre></h2>
+        </div>
+    </section>
+
+    <br>
+
+    <section id="skills" class="section">
+        <h2 class="section-title">Soft Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card"><h3>Persuasive Communication</h3> </div>
+            <div class="skill-card"><h3>Relationship Building</h3> </div>
+            <div class="skill-card"><h3>Active Listening</h3> </div>
+            <div class="skill-card"><h3>Target-Oriented Mindset</h3> </div>
+            <div class="skill-card"><h3>Problem Solving</h3> </div>
+        </div>
+
+        <br>
+
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card"><h3>MS Word</h3></div>
+            <div class="skill-card"><h3>MS PowerPoint</h3></div>
+            <div class="skill-card"><h3>MS Excel</h3></div>
+            <div class="skill-card"><h3>HTML5</h3></div>
+            <div class="skill-card"><h3>CSS3</h3></div>
+            <div class="skill-card"><h3>JavaScript</h3></div>
+            <div class="skill-card"><h3>Software Engineering</h3></div>
+        </div>
+    </section>
+
+    <section id="language" class="section">
+        <h2 class="section-title">Languages Known</h2>
+        <div class="languages-container">
+            <div class="language-card"><h3>English: Full Professional Proficiency</h3>
+                <p>(Fluent in Speaking, Reading, and Writing)</p></div>
+
+            <div class="language-card">
+                <h3>Hindi: Native Proficiency</h3>
+                <p>(Fluent in Speaking, Reading, and Writing)</p></div>
+
+            <div class="language-card">
+            <h3>Bengali: Limited Working Proficiency</h3>
+            <p>(Professional Comprehension)</p></div>
+        </div>
+    </section>
+
+    <section id="edu" class="section bg-light">
+        <h2 class="section-title">Education</h2>
+        <div class="timeline">
+            <div class="edu-item">
+                <h3>Master of Computer Applications (MCA)</h3>
+                <p>Netaji Subhash Engineering College</p>
+                <p>Kolkata, West Bengal</p>
+                <p>Expected Completion: June 2026</p>
+                <p>Current CGPA(Upto 3rd Semester): 7.45</p>
+            </div>
+
+            <br>
+
+            <div class="edu-item">
+                <h3>Bachelor of Computer Applications (BCA)</h3>
+                <p>Techno Main SaltLake</p>
+                <p>Kolkata, West Bengal</p>
+                <p>Duration: 2021 - 2024</p>
+                <p>CGPA: 8.14</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="certificates" class="section bg-light">
+        <h2 class="section-title">Certificates</h2>
+        <div class="certificates-grid">
+            <img src="Certificate 1.jpg" alt="Certificate 1">
+            <img src="Certificate 2.jpg" alt="Certificate 2">
+            <img src="Certificate 3.jpg" alt="Certificate 3">
+            <img src="Certificate 4.jpg" alt="Certificate 4">
+            <img src="Certificate 5.jpg" alt="Certificate 5">
+            <img src="Certificate 6.jpg" alt="Certificate 6">
+        </div>
+    </section>
+
+    <section id="contact" class="section bg-light">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-info">
+            <p>Email: <a href="mailto:bhushanakesh1804@gmail.com">bhushanakesh1804@gmail.com</a></p>
+            <p>Location: Kolkata, West Bengal</p>
+        </div>
+    </section>
+
+    <!-- Certificate Modal -->
+    <div id="certificate-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img id="modal-image" src="" alt="">
+            <div class="modal-controls">
+                <button id="prev">&lt;</button>
+                <button id="next">&gt;</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
